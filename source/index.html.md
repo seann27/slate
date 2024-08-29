@@ -291,13 +291,14 @@ This endpoint retrieves data for a list of coins. This endpoint is paginated, re
 ### Query Parameters
 
 Parameter | Type | Description
---------- | -----------
+--------- | ----------- | --------- | ---------
 page | integer | Specifies the page number to retrieve (e.g., 1, 2, 3, etc.).
 
 ### Headers
 
 Header | Description
-API-KEY	| Your unique API key.
+--------- | ------- | -----------
+API-KEY | Your unique API key.
 API-SECRET-KEY | Your API secret key.
 
 <aside class="success"> Authentication is required to access this endpoint. </aside>
@@ -380,12 +381,13 @@ This endpoint retrieves information and graph data for a specific coin.
 ### Query Parameters
 
 Parameter | Type | Description
---------- | -----------
+--------- | ----------- | --------- | ---------
 symbol | string | The symbol of the coin to retrieve (e.g., BTC).
 
 ### Headers
 
 Header | Description
+--------- | ------- | -----------
 API-KEY	| Your unique API key.
 API-SECRET-KEY | Your API secret key.
 
@@ -556,6 +558,7 @@ No query parameters are required for this endpoint.
 ### Headers
 
 Header | Description
+--------- | ------- | -----------
 API-KEY	| Your unique API key.
 API-SECRET-KEY | Your API secret key.
 
@@ -691,7 +694,7 @@ Returns sector-specific indexes.
 ### Query Parameters
 
 Parameter | Type | Description
---------- | -----------
+--------- | ----------- | --------- | ---------
 weighting_method | string | Specifies the method of weighting (options are "market_cap" or "equal_weight").
 sector | string | Specifies the sector to filter by (e.g., "Smart Contract Platform").
 industry | string | Specifies the industry within the sector (e.g., "Layer 1").
@@ -703,6 +706,7 @@ If no parameters are provided, the response will include all sector-specific ind
 ### Headers
 
 Header | Description
+--------- | ------- | -----------
 API-KEY	| Your unique API key.
 API-SECRET-KEY | Your API secret key.
 
@@ -782,6 +786,7 @@ No query parameters are required for this endpoint.
 ### Headers
 
 Header | Description
+--------- | ------- | -----------
 API-KEY	| Your unique API key.
 API-SECRET-KEY | Your API secret key.
 
@@ -939,6 +944,7 @@ No query parameters are required for this endpoint.
 ### Headers
 
 Header | Description
+--------- | ------- | -----------
 API-KEY	| Your unique API key.
 API-SECRET-KEY | Your API secret key.
 
